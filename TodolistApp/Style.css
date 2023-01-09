@@ -1,0 +1,71 @@
+/* Add some color to the body element */
+body {
+    color: blue;
+  }
+  
+  /* Style the h1 element */
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Style the form and input elements */
+  form#add-task-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  form#add-task-form input#task {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  
+  form#add-task-form button[type="submit"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the unordered list and list items */
+  ul#task-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul#task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the buttons within the list items */
+  ul#task-list li button {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  /* Style the "Complete" buttons */
+  ul#task-list li button.complete-btn {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Style the "Delete" buttons */
+  ul#task-list li button.delete-btn {
+    background-color: red;
+    color: white;
+  }
+  
